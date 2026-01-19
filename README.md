@@ -7,3 +7,6 @@ npm i
 
 //run a react app
 npm run dev
+
+//dowloading bootstrap
+npm i bootstrap
