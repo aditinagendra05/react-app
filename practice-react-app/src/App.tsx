@@ -1,6 +1,11 @@
 import ListGroup from "./components/ListGroup"; 
 function App(){
-    return <div><ListGroup /></div>;
+    let city=["Delhi","Mumbai","Bangalore","Chennai","Kolkata"];
+    return(
+        <div>
+            <ListGroup city={city} heading="Cities"/>
+        </div>
+    );
 
 }
 export default App;
